@@ -1,3 +1,19 @@
 div {
-    background:linear-gradient(to bottom, red, gray);
+    background:linear-gradient(to bottom, red, #373737);
+    width:900px;
+    height: 900px;
+}
+
+h1{
+    text-align: center; 
+    transform: translate(500px, 30);
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+    font-size: 25px;
 }

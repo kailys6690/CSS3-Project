@@ -1,16 +1,21 @@
 div {
     background:linear-gradient(to bottom, red, #373737);
-    width:900px;
+    width:100%;
     height: 900px;
 }
 
 h1{
     text-align: center; 
     transform: translate(500px, 30);
+    font-size: 60px;
+    text-shadow: 3px 3px 8px black;
+    animation: ;
 }
 
 h3 {
     text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 1px #373737;
 }
 
 p {

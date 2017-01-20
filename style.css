@@ -9,7 +9,7 @@ h1{
     transform: translate(500px, 30);
     font-size: 60px;
     text-shadow: 3px 3px 8px black;
-    animation: ;
+    animation: expand 1s;
 }
 
 h3 {

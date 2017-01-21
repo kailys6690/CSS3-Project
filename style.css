@@ -11,6 +11,7 @@ h1 {
     animation: expanded-text 2s 1s 4 alternate;
 }
 
+/*this sets the animation for the the largest header to go from it's original font size to a larger font size*/
 @keyframes expanded-text {
     from {
         font-size: 60px;

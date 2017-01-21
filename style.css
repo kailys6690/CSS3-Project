@@ -1,15 +1,23 @@
 div {
-    background:linear-gradient(to bottom, red, #373737);
-    width:100%;
+    background: linear-gradient(to bottom, red, #373737);
+    width: 100%;
     height: 900px;
 }
 
-h1{
-    text-align: center; 
-    transform: translate(500px, 30);
+h1 {
+    text-align: center;
     font-size: 60px;
-    text-shadow: 3px 3px 8px black;
-    animation: expand 1s;
+    text-shadow: 3px 3px 3px black;
+    animation: expanded-text 2s 1s 4 alternate;
+}
+
+@keyframes expanded-text {
+    from {
+        font-size: 60px;
+    }
+    to {
+        font-size: 160px;
+    }
 }
 
 h3 {
@@ -19,6 +27,17 @@ h3 {
 }
 
 p {
-    text-align: center; 
+    text-align: center;
     font-size: 25px;
+    border-bottom-style: dotted;
+    border-width: thick;
+}
+
+img{
+    position: center;
+    transform: rotate(-90deg) translate(-250px, 800px);
+}
+
+img:hover {
+    transform: rotate(360deg);
 }

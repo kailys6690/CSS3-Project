@@ -31,6 +31,7 @@ p {
     font-size: 25px;
     border-bottom-style: dotted;
     border-width: thick;
+    transition: ease-in 2s;
 }
 
 img{
@@ -38,6 +39,6 @@ img{
     transform: rotate(-90deg) translate(-250px, 800px);
 }
 
-img:hover {
+p:hover {
     transform: rotate(360deg);
 }

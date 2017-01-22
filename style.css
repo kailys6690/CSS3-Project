@@ -4,6 +4,8 @@ div {
     height: 900px;
 }
 
+/*text shadow: adds a shadow to the header (the brawl) stating the horizontal and vertical value (positioning) with the value of blur and color*/
+/*animation: supposed to set an animation to the title stating its animation name, how many seconds it takes for the animation to complete, speed of the aniation, how many times the animation should play and an alternate cycle */
 h1 {
     text-align: center;
     font-size: 60px;

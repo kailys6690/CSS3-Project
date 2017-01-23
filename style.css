@@ -44,5 +44,5 @@ p:hover {
 
 /*the image is being translated 250px (being pushed to the right) and 800px (being pushed down)*/
 img{
-    transform: translate(-250px, 800px);
+    transform: translate(770px, 160px);
 }

@@ -28,7 +28,7 @@ h3 {
     font-size: 40px;
     text-shadow: 3px 1px #373737;
 }
-
+/*paragraph: has a transition of starting slow and completes in 2 seconds*/
 p {
     text-align: center;
     font-size: 25px;
@@ -37,11 +37,12 @@ p {
     transition: ease-in 2s;
 }
 
-img{
-    position: center;
-    transform: rotate(-90deg) translate(-250px, 800px);
-}
-
+/*this plays the transition of having the paragraph rotate in a 360 degree making a circle*/
 p:hover {
     transform: rotate(360deg);
+}
+
+/*the image is being translated 250px (being pushed to the right) and 800px (being pushed down)*/
+img{
+    transform: translate(-250px, 800px);
 }
